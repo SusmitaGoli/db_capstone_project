@@ -1,4 +1,4 @@
-### Task2 ####
+### Task2 #### join
 SELECT 
     c.CustomerID AS CustomerID,
     c.CustomerName AS FullName,
@@ -18,7 +18,7 @@ FROM
     Course AS ct ON mi.CourseID = ct.CourseID
 ORDER BY Cost ASC;
 
-#### Task 3 #####
+#### Task 3 ##### Subquery
 
 SELECT 
     mi.ItemName AS MenuName
